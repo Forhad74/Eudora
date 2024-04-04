@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h5, h2, h3, h6, h5, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/*--Header Section--*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h5, h2, h3, h6, h5, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/*--Header Section--*/
+header{
+    background-image: url(../images/bannar.png);background-position: center;background-repeat: no-repeat;background-size: cover;min-height: 100vh;text-align: center;}
+.navigation{
+    background: #00000030;
+    padding: 15px 0;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li{
+    text-align: center;
+    list-style: none;
+}
+.navigation ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+.navigation ul li a img{
+    width: 70%;
+    margin: auto;
+}
+header h1{
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+header span{
+    color: #e59205;
+}
+header p{
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: "Raleway", sans-serif;
+}
+header button{
+    text-align: center;
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-family: "Bebas Neue", sans-serif;
+    transition: 0.5s ease-in-out;
+} 
+header button:hover{
+    background: #e59205;
+    color:#fff;
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+/*------------Food Menu----------*/
+.food_menu{
+    padding: 70px 0;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.heading h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+    color: #6e7498;
+    position: relative;
+}
+.heading h1::before{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%);
+    background: #e59205;
+    width: 170px;
+    height: 2px;
+}
+.heading h1::after{
+    content:'' ;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%);
+    background: #e59205;
+    width: 170px;
+    height: 2px;
+}
+
+.heading p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #a4a8bc;
+    margin-bottom: 20px;
+}
+.heading .buttons{
+    display: flex;
+    justify-content: center;
+}
+.custom_btn{
+    background: transparent;
+    border: 1px solid #6e7498;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family:  "Bebas Neue", sans-serif;
+    color: #6e7498;
+    margin: 0 15px;
+    transition: 0.5s ease-in-out;
+}
+.custom_btn:hover{
+    background: #e59205;
+    color: #fff;
+}
+.menu_item{
+    text-align: center;
+    margin-top: 50px;}
+.menu_item img{
+    box-shadow: 0px 0px 6px 5px #eff0f3;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.menu_item .custom_btn{
+    
+}
+.menu_item.active {
+    margin-top: 0;
+}
+.menu_item.active h2{
+    color: #e59205;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    }
+.menu_item.active h3{
+    font-size: 20px;
+    color: #3a3a3a;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+.menu_item.active p{ 
+    font-size: 15px;   
+    margin-bottom: 15px;   
+    font-family: "Raleway", sans-serif;    
+    color: #a4a8bc;
+    line-height: 30px;
+}
+/*------------Platter----------*/
+.platter{
+ 
+}
+.platter .row{
+    height: 250px;
+}
+.color-box{
+    background-color: #e59205;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.color-box h2{
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    width: 60%;
+    text-transform: capitalize;
+}
+.image-box{
+    background-image: url(../images/breakfast.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+}
+/*-------------Icon section----------*/
+
+.icon_section{
+    margin-top: 30px;
+    margin-bottom: auto;
+    text-align: center;
+}
+.item-icons{
+    margin-bottom: 70px;
+}
+.item-icons h3{
+    color: #6e7498;
+    font-size: 25px;
+    margin: 20px 0;
+    font-family: "Playfair Display", serif;
+}
+.item-icons p{
+    color: #a4a8bc;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.item-icons img{
+    width: 10%;
+}
+/*-------------Newsletter Section----------*/
+.newsletter{
+    background: url(../images/newslatter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+}
+.newsletter::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2d3950;
+    opacity: .3;
+    z-index: -1;
+}
+.newsletter-section{
+   
+}
+.newsletter-section h1{
+    color: #fff;
+    text-transform:lowercase;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 30px 30px;
+}
+.newsletter-section form{
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.newsletter-section form input{
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    font-family:  "Bebas Neue", sans-serif;
+}
+.newsletter-section form input[type="email"]{
+    background: transparent;
+    width: 60%;
+    color: #fff;
+    font-size: 14px;
+}
+.newsletter-section form input[type="submit"]{
+    width: auto;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #eab167;
+    transition: 0.5s ease-in-out;
+}
+.send-email input[type="submit"]:hover{
+    background: #e59205;
+}
+/*-------------footer Section----------*/
+.footer{
+    padding: 25px 0;
+}
+.footer-area{
+
+}
+.footer-area p{
+    color: #a4a8bc;
+    text-align: center;
+    font-size: 16px;
+}
+.footer-menu{
+
+}
+.footer-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu ul li{
+
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #a4a8bc;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+
+
+
